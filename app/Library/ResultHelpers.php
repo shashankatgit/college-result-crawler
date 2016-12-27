@@ -49,6 +49,12 @@ class ResultHelpers
                 $result->save();
             }
 
+            else{
+                $html="
+                 <h3 style='margin-top: 160px;'><p align='center'>Result undeclared or invalid details!</p></h3>
+                ";
+            }
+
             if ($returnHtml)
                 return $html;
 

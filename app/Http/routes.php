@@ -17,14 +17,19 @@ Route::get('/', function () {
 //
 
 
-Route::get('form', function() {
-   return view('results.form');
-});
+Route::get('home', ['as' =>'results.home',function() {
+   return view('results.home');
+}]);
 
 Route::post('getSingleResult',[
    'uses' => 'ResultsController@postGetSingleResult',
     'as' => 'results.getSingleResult'
     ]);
+
+Route::post('getBulkResult',[
+    'uses' => 'ResultsController@postGetBulkResult',
+    'as' => 'results.getBulkResult'
+]);
 
 
 

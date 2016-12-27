@@ -41,7 +41,7 @@ class FetchHelpers
 
         $name = $dom->getElementById('ctl00_ContentPlaceHolder1_sName');
         if ($name == null)
-            return response()->json($invalidResult);
+            return $invalidResult;
 
         $name = $name->textContent;
 
@@ -51,11 +51,11 @@ class FetchHelpers
 
         $marks = $dom->getElementById($marksElementId);
         if ($marks == null)
-            return response()->json($invalidResult);
+            return $invalidResult;
         $marks = explode('/', $marks->textContent);
 
         if (!is_numeric($marks[0]) || !is_numeric($marks[1]))
-            return response()->json($invalidResult);
+            return $invalidResult;
 
         $percentage = $marks[0] / $marks[1] * 100;
 

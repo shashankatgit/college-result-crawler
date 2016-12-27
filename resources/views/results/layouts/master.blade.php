@@ -19,5 +19,6 @@
 
 
 <script src="{{URL::to('webassets/js/bootstrap.js')}}"></script>
+@yield('scripts')
 </body>
 </html>

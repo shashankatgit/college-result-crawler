@@ -22,8 +22,12 @@ class ResultsController extends Controller
         $rollNo = $request['rollNo'];
 
         $resultHTML = ResultHelpers::getSingleResult($session, $semester, $resultCategory, $rollNo, true);
-        
-        return view('results.show-single-result', compact('resultHTML','rollNo','semester','session'));
+
+        return view('results.show-single-result', compact('resultHTML','rollNo','semester','session','resultCategory'));
     }
 
+    public function postGetBulkResult(Request $request)
+    {
+        
+    }
 }
