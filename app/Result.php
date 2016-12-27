@@ -9,5 +9,5 @@ use Illuminate\Database\Eloquent\Model;
 class Result extends Model
 {
     //
-    protected $timestamps = false;
+    public $timestamps = false;
 }

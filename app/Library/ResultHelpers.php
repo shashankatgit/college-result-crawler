@@ -14,33 +14,42 @@ class ResultHelpers
 
 
     //Returns an object of Result model by default
-    public static function getSingleResult($session, $semester, $resultCategory, $rollNo, $returnHtml=false)
+    public static function getSingleResult($session, $semester, $resultCategory, $rollNo, $returnHtml = false)
     {
-        $result = \DB::table('results')
-            ->where('session', '=', $session)
+//        $result = \DB::table('results')
+//            ->where('session', '=', $session)
+//            ->where('semester', '=', $semester)
+//            ->where('rollno', '=', $rollNo)
+//            ->get();
+
+        $result = Result::where('session', '=', $session)
             ->where('semester', '=', $semester)
             ->where('rollno', '=', $rollNo)
-            ->get();
+            ->first();
 
-        $parsedData=null;
+        $parsedData = null;
 
         //Check if Result is absent in database
         if ($result == null) {
+
+
             $html = FetchHelpers::helperFetchHTMLFromServer($session, $semester, $resultCategory, $rollNo);
-            $parsedData = FetchHelpers::parseHTML($rollNo, $semester, $html);
+            $parsedData = FetchHelpers::parseHTMLForPercentage($rollNo, $semester, $html);
 
             if ($parsedData['isValid']) {
                 $result = new Result();
+                $html = FetchHelpers::parseHTMLForStorage($html);
+
                 $result->rollno = $rollNo;
                 $result->session = $session;
                 $result->semester = $semester;
                 $result->name = $parsedData['name'];
                 $result->percentage = $parsedData['percentage'];
-                $result->html = $html;
+                $result->result_html = $html;
                 $result->save();
             }
 
-            if($returnHtml)
+            if ($returnHtml)
                 return $html;
 
             else
@@ -49,7 +58,12 @@ class ResultHelpers
 
         //If result is found in database
         else {
-            return $result->html;
+            if ($returnHtml) {
+                return $result->result_html;
+            }
+            else
+                return $result;
+
         }
     }
 

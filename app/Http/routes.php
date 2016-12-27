@@ -16,16 +16,14 @@ Route::get('/', function () {
 });
 //
 
-Route::get('get',[
-   'uses' => 'ResultController@getResult',
-    ]);
 
 Route::get('form', function() {
    return view('results.form');
 });
 
-Route::get('getResult',[
-   'uses' => 'ResultController@getResult',
+Route::post('getSingleResult',[
+   'uses' => 'ResultsController@postGetSingleResult',
+    'as' => 'results.getSingleResult'
     ]);
 
 

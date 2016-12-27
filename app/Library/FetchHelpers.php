@@ -32,7 +32,7 @@ class FetchHelpers
 
     }
 
-    public static function parseHTML($rollNo, $semester, $html)
+    public static function parseHTMLForPercentage($rollNo, $semester, $html)
     {
         $dom = new \DOMDocument();
         $invalidResult = ['isValid'=> false,'rollno' => $rollNo, 'name' => 'N/A', 'percentage' => 'N/A'];
@@ -70,6 +70,16 @@ class FetchHelpers
 
 //print_r($result);
         return $result;
+    }
+
+    public static function parseHTMLForStorage($html)
+    {
+        $dom = new \DOMDocument();
+        @$dom->loadHTML($html);
+
+        $data1 = $dom->getElementsByTagName('table');
+
+        return $dom->saveHTML($data1->item(0));
     }
     
 }

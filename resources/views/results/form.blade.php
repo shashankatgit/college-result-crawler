@@ -38,12 +38,12 @@
                         results in cycle without having to enter the details again
                     </h5>
                     <br>
-                    <form class="form" action="" method="post">
+                    <form class="form" action="{{route('results.getSingleResult')}}" method="post">
 
                         <div class="form-group row">
-                            <label for="rollno" class="col-sm-3 col-form-label">Roll No</label>
+                            <label for="rollNo" class="col-sm-3 col-form-label">Roll No</label>
                             <div class="col-sm-9">
-                                <input type="number" class="form-control" name="rollno" id="rollno"
+                                <input type="number" class="form-control" name="rollNo" id="rollNo"
                                        placeholder="Roll No"
                                        required>
                             </div>
@@ -80,6 +80,7 @@
                             </div>
                         </div>
 
+                        <input type="hidden" name="_token" value="{{Session::token()}}">
                         <div class="form-group row">
                             <button class="btn btn-danger col-sm-2" style="float: right; margin-right:20px"
                                     type="submit">Fire it
@@ -138,10 +139,10 @@
                                 <br>
                                 <u>1st field (prefix)</U> : This is the common part in all roll no you wish to see
                                 <br>
-                                <u>2nd field (start rollno)</U> : This part will be concatenated with the prefix to obtain
+                                <u>2nd field (start rollNo)</U> : This part will be concatenated with the prefix to obtain
                                 the full roll no
                                 <br>
-                                <u>3rd field (end rollno)</U> : This will mark the end roll no of this particular range
+                                <u>3rd field (end rollNo)</U> : This will mark the end roll no of this particular range
                                 <br><br>
                                 <b style="color:darkred">For example : prefix=14043100 start=1 end=47 will tabulate all results from roll no
                                 1404310001 to 1404310047</b>
@@ -150,49 +151,51 @@
 
 
                         <div class="row">
-                            <label for="rollnoRange1" class="col-sm-5 col-form-label">Range 1</label>
+                            <label for="rollNoRange1" class="col-sm-5 col-form-label">Range 1</label>
                         </div>
                         <div class="form-group row">
 
                             <div class="col-sm-1"></div>
                             <div class="col-sm-5">
-                                <input type="number" class="form-control" name="rollnoPrefix1" id="rollnoPrefix1"
+                                <input type="number" class="form-control" name="rollNoPrefix1" id="rollNoPrefix1"
                                        placeholder="roll no prefix" required>
 
                             </div>
                             <div class="col-sm-3">
-                                <input type="number" class="form-control" name="rollnoStart1" id="rollnoStart1"
-                                       placeholder="start rollno" required>
+                                <input type="number" class="form-control" name="rollNoStart1" id="rollNoStart1"
+                                       placeholder="start rollNo" required>
                             </div>
                             <div class="col-sm-3">
-                                <input type="number" class="form-control" name="rollnoEnd1" id="rollnoEnd1"
-                                       placeholder="end rollno" required>
+                                <input type="number" class="form-control" name="rollNoEnd1" id="rollNoEnd1"
+                                       placeholder="end rollNo" required>
                             </div>
                         </div>
 
 
 
                         <div class="row">
-                            <label for="rollnoRange1" class="col-sm-5 col-form-label">Range 2 (optional)</label>
+                            <label for="rollNoRange1" class="col-sm-5 col-form-label">Range 2 (optional)</label>
                         </div>
                         <div class="form-group row">
 
                             <div class="col-sm-1"></div>
                             <div class="col-sm-5">
-                                <input type="number" class="form-control" name="rollnoPrefix2" id="rollnoPrefix2"
+                                <input type="number" class="form-control" name="rollNoPrefix2" id="rollNoPrefix2"
                                        placeholder="roll no prefix" >
 
                             </div>
                             <div class="col-sm-3">
-                                <input type="number" class="form-control" name="rollnoStart2" id="rollnoStart2"
-                                       placeholder="start rollno" >
+                                <input type="number" class="form-control" name="rollNoStart2" id="rollNoStart2"
+                                       placeholder="start rollNo" >
                             </div>
                             <div class="col-sm-3">
-                                <input type="number" class="form-control" name="rollnoEnd2" id="rollnoEnd2"
-                                       placeholder="end rollno" >
+                                <input type="number" class="form-control" name="rollNoEnd2" id="rollNoEnd2"
+                                       placeholder="end rollNo" >
                             </div>
                         </div>
 
+
+                        <input type="hidden" name="_token" value="{{Session::token()}}">
 
                         <div class="form-group row">
                             <button class="btn btn-danger col-sm-2" style="float: right; margin-right:20px"
