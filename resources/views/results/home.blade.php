@@ -98,7 +98,7 @@
                         Tabular Results for the given range of results
                     </h5>
                     <br>
-                    <form class="form" action="" method="post">
+                    <form class="form" action="{{route('results.getBulkResult')}}" method="post">
 
                         <div class="form-group row">
                             <label for="session" class="col-sm-3 col-form-label">Acd Session </label>

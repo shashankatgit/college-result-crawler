@@ -31,6 +31,10 @@ Route::post('getBulkResult',[
     'as' => 'results.getBulkResult'
 ]);
 
+Route::get('ajaxResponse',[
+   'uses' => 'ResultsController@postGetResultJSON',
+    'as' => 'results.ajaxResponse'
+]);
 
 
 
