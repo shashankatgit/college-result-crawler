@@ -68,13 +68,21 @@ class ResultsController extends Controller
 
         $result = ResultHelpers::getSingleResult($session, $semester, $resultCategory, $rollNo, false);
 
-  
+        $errormsg = 'Result N/A , wrong session-semester pair, or invalid student! Please check.';
 
-        $resultArray = [
-            'rollNo' => $result->rollno,
-            'name' => $result->name,
-            'percentage' => $result->percentage
-        ];
+        if($result==null)
+        {
+            $resultArray =  ['isValid'=>false, 'rollno' => $rollNo, 'name'=>'-', 'percentage'=>$errormsg];
+        }
+        else {
+            $resultArray = [
+                'isValid'=>true,
+                'rollNo' => $result->rollno,
+                'name' => $result->name,
+                'percentage' => $result->percentage,
+                'sem' => $semester,
+            ];
+        }
         
         if($request->has('id'))
             $resultArray['id'] = $request['id'];
