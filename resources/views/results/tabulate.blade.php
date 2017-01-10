@@ -54,14 +54,20 @@
 
             xmlhttp.onreadystatechange = function () {
                 if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+                    var row = document.getElementById("entry" + id);
                     if (xmlhttp.status == 200) {
-                        resultjson = JSON.parse(xmlhttp.responseText);
-                        var row = document.getElementById("entry" + id);
+                        var resultjson = JSON.parse(xmlhttp.responseText);
                         row.cells[2].innerHTML = resultjson.name;
                         row.cells[3].innerHTML = resultjson.percentage;
+
+                        row.cells[4].innerHTML = '<a href="{{route('results.getSingleResult')}}'
+                            + '?rollNo=' +rollNo + '&semester=' + semester
+                            + '&session=' + session + '&resultCategory=' + resultCategory + '" target=_blank>See Full Result</a>';
+
                         if(resultjson.isValid)
-                            row.cells[4].innerHTML = '<img src=' + '"http://ims.bietjhs.in/student/StudentPhoto.ashx?RollNo=' + rollNo
+                            row.cells[5].innerHTML = '<img src=' + '"http://ims.bietjhs.in/student/StudentPhoto.ashx?RollNo=' + rollNo
                                     + '&type=Pic" height=90>';
+
                     }
                     else if (xmlhttp.status == 400) {
                         row.cells[2].innerHTML = 'error';
@@ -87,7 +93,8 @@
             var cellName = row.insertCell(2);
             var cellPercentage = row.insertCell(3);
 
-            var cellPhoto = row.insertCell(4);
+            row.insertCell(4);
+            row.insertCell(5);
 
 
             row.setAttribute('id', "entry" + id);
@@ -102,26 +109,34 @@
 
 @section('styles')
     <style>
-        .table {
+        .table-container {
             margin-top: 30px;
-            margin-right: 10px;
+            margin-right: 15px;
             margin-left: 15px;
-            border: 1px solid darkblue;
+            border: 3px dotted darkblue;
+            padding:5px;
         }
+
     </style>
 @append
 
 @section('content')
     <div class="main-container">
+        <div class="header-container">
+            <div>
+                <h3>Highest in the range</h3>
+            </div>
+        </div>
         <div class="table-container">
             <table id="resultTable" class="table">
                 <thead>
                 <tr>
-                    <th>No</th>
-                    <th>RollNo</th>
-                    <th>Name</th>
-                    <th>Percentage</th>
-                    <th>Photo</th>
+                    <th class="col-sm-1">No</th>
+                    <th class="col-sm-2">RollNo</th>
+                    <th class="col-sm-3">Name</th>
+                    <th class="col-sm-3">Percentage</th>
+                    <th class="col-sm-1">Full Result</th>
+                    <th class="col-sm-2">Photo</th>
                 </tr>
                 </thead>
 

@@ -154,7 +154,8 @@
 
 
                         <div class="row">
-                            <label for="rollNoRange1" class="col-sm-5 col-form-label">Range 2 (optional)</label>
+                            <label for="rollNoRange1" class="col-sm-5 col-form-label">Range 2 (optional, usually for
+                                lateral entry students range)</label>
                         </div>
                         <div class="form-group row">
 
@@ -195,7 +196,7 @@
                         results in cycle without having to enter the details again
                     </h5>
                     <br>
-                    <form class="form" action="{{route('results.getSingleResult')}}" method="post">
+                    <form class="form" action="{{route('results.getSingleResult')}}" method="get">
 
                         <div class="form-group row">
                             <label for="rollNo" class="col-sm-3 col-form-label">Roll No</label>

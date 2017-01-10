@@ -2,11 +2,447 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cfe1d61-bf59-48fd-9a2f-1bdacefe3523" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/web.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/css/admin-min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/css/admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/fonts/Raleway-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/fonts/RobotoSlab-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/js/admin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom/simple_html_dom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/.svn/text-base/google.htm.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/.svn/text-base/index.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/google.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/.svn/text-base/jquery.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/.svn/text-base/jquery.treeview.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/.svn/text-base/jquery.treeview.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/.svn/text-base/screen.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/images/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/images/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/images/.svn/prop-base/treeview-default-line.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/images/.svn/prop-base/treeview-default.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/images/.svn/text-base/treeview-default-line.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/images/.svn/text-base/treeview-default.gif.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/images/treeview-default-line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/images/treeview-default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/jquery.treeview.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/jquery.treeview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/app/js/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/change_log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/.svn/prop-base/example_callback.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/.svn/prop-base/example_extract_html.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/.svn/text-base/example_advanced_selector.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/.svn/text-base/example_basic_selector.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/.svn/text-base/example_callback.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/.svn/text-base/example_extract_html.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/.svn/text-base/example_modify_contents.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/.svn/text-base/simple_html_dom_utility.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/example_advanced_selector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/example_basic_selector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/example_callback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/example_extract_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/example_modify_contents.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/scraping/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/scraping/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/scraping/.svn/prop-base/example_scraping_digg.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/scraping/.svn/prop-base/example_scraping_imdb.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/scraping/.svn/prop-base/example_scraping_slashdot.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/scraping/.svn/text-base/example_scraping_digg.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/scraping/.svn/text-base/example_scraping_imdb.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/scraping/.svn/text-base/example_scraping_slashdot.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/scraping/example_scraping_digg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/scraping/example_scraping_imdb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/scraping/example_scraping_slashdot.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/example/simple_html_dom_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/.svn/prop-base/manual.htm.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/.svn/prop-base/manual_api.htm.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/.svn/prop-base/manual_faq.htm.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/.svn/text-base/manual.htm.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/.svn/text-base/manual_api.htm.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/.svn/text-base/manual_faq.htm.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/css/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/css/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/css/.svn/text-base/default.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/css/.svn/text-base/ui.tabs.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/css/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/css/ui.tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/img/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/img/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/img/.svn/prop-base/tab.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/img/.svn/text-base/tab.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/img/tab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/js/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/js/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/js/.svn/text-base/jquery-1.2.3.pack.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/js/.svn/text-base/ui.tabs.pack.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/js/jquery-1.2.3.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/js/ui.tabs.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/manual.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/manual_api.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/manual/manual_faq.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/simple_html_dom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/all_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/callback_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/dom_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/element_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/invalid_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/jquery-1.2.3.pack.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/mass_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/memory_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/misc_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/performance_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/selector_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/slick_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/slickspeed.htm.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/std_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/prop-base/strip_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/all_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/callback_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/dom_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/element_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/invalid_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/jquery-1.2.3.pack.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/mass_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/memory_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/misc_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/performance_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/selector_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/slick_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/slickspeed.htm.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/std_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/.svn/text-base/strip_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/all_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/callback_testcase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/dom_testcase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/element_testcase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/html/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/html/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/invalid_testcase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/jquery-1.2.3.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/mass_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/memory_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/misc_testcase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/performance_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/.svn/dir-prop-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/.svn/prop-base/all_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/.svn/prop-base/element_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/.svn/prop-base/memory_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/.svn/prop-base/performance_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/.svn/prop-base/selector_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/.svn/text-base/all_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/.svn/text-base/element_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/.svn/text-base/memory_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/.svn/text-base/performance_test.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/.svn/text-base/selector_testcase.php.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/all_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/element_testcase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/memory_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/performance_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/reader/selector_testcase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/selector_testcase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/slick_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/slickspeed.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/std_testcase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simplehtmldom_1_5 (copy)/testcase/strip_testcase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/HELP_MY_TESTS_DONT_WORK_ANYMORE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/arguments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/authentication.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/autorun.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/browser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/collector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/compatibility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/cookies.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/default_reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/detached.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/en/authentication_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/en/browser_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/en/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/en/expectation_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/en/form_testing_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/en/group_test_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/en/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/en/mock_objects_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/en/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/en/partial_mocks_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/en/reporter_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/en/unit_test_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/en/web_tester_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/fr/authentication_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/fr/browser_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/fr/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/fr/expectation_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/fr/form_testing_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/fr/group_test_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/fr/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/fr/mock_objects_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/fr/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/fr/partial_mocks_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/fr/reporter_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/fr/unit_test_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/docs/fr/web_tester_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/dumper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/eclipse.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/encoding.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/errors.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/expectation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/extensions/pear_test_case.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/extensions/testdox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/extensions/testdox/test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/frames.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/invoker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/mock_objects.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/php_parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/recorder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/reflection_php4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/reflection_php5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/remote.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/scorer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/selector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/shell_tester.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/simpletest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/socket.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/tag.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/acceptance_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/adapter_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/all_tests.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/arguments_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/authentication_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/autorun_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/bad_test_suite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/browser_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/collector_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/command_line_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/compatibility_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/cookies_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/detached_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/dumper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/eclipse_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/encoding_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/errors_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/exceptions_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/expectation_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/form_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/frames_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/http_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/interfaces_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/interfaces_test_php5_1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/live_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/mock_objects_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/page_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/parse_error_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/parsing_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/php_parser_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/recorder_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/reflection_php5_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/remote_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/shell_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/shell_tester_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/simpletest_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/site/file.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/socket_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/support/collector/collectable.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/support/collector/collectable.2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/support/empty_test_file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/support/failing_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/support/latin1_sample" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/support/passing_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/support/recorder_sample.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/support/spl_examples.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/support/supplementary_upload_sample.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/support/test1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/support/upload_sample.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/tag_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/test_with_parse_error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/unit_tester_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/unit_tests.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/url_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/user_agent_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/visual_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/web_tester_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test/xml_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/test_case.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/tidy_parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/unit_tester.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/url.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/user_agent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/web_tester.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/simpletest/xml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/bootstrap-social/bootstrap-social.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/bootstrap-social/bootstrap-social.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/bootstrap-social/bootstrap-social.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables-plugins/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables-plugins/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables-plugins/dataTables.bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables-plugins/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables-responsive/dataTables.responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables-responsive/dataTables.responsive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables-responsive/dataTables.responsive.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.bootstrap4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.bootstrap4.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.foundation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.foundation.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.jqueryui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.jqueryui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.semanticui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.semanticui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.uikit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/dataTables.uikit.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/jquery.dataTables.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/jquery.dataTables.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/css/jquery.dataTables_themeroller.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/images/Sorting icons.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/images/sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/images/sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/images/sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/images/sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/images/sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.bootstrap4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.bootstrap4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.foundation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.foundation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.jqueryui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.jqueryui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.semanticui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.semanticui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.uikit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/dataTables.uikit.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/jquery.dataTables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/datatables/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot-tooltip/jquery.flot.tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot-tooltip/jquery.flot.tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot-tooltip/jquery.flot.tooltip.source.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.colorhelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.categories.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.crosshair.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.errorbars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.fillbetween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.navigate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.selection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.stack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.threshold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.flot.time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/flot/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/HELP-US-OUT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/css/font-awesome.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/extras.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/spinning.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_extras.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_spinning.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/metisMenu/metisMenu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/metisMenu/metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/metisMenu/metisMenu.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/metisMenu/metisMenu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/morrisjs/morris.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/morrisjs/morris.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/morrisjs/morris.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/raphael/raphael.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/webassets/vendor/raphael/raphael.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/results/form.blade.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ResultsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ResultsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/results/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/results/home.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/results/includes/navbar.blade.php" afterPath="$PROJECT_DIR$/resources/views/results/includes/navbar.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/results/tabulate.blade.php" afterPath="$PROJECT_DIR$/resources/views/results/tabulate.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.php" afterPath="$PROJECT_DIR$/server.php" />
     </list>
     <ignored path="bietresults.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,20 +464,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultsController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ResultsController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ResultsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
+            <state relative-caret-position="1045">
               <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
               <folding>
                 <element signature="e#40#70#0#PHP" expanded="true" />
@@ -50,48 +476,65 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FetchHelpers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Library/FetchHelpers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ResultHelpers.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Library/ResultHelpers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+            <state relative-caret-position="267">
+              <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
               <folding>
-                <marker date="1482809815743" expanded="true" signature="1613:1631" ph="..." />
-                <marker date="1482809815743" expanded="true" signature="1632:1713" ph="..." />
+                <marker date="1483016675165" expanded="true" signature="1613:1631" ph="..." />
+                <marker date="1483016675165" expanded="true" signature="1632:1713" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tabulate.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tabulate.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/results/tabulate.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+            <state relative-caret-position="120">
+              <caret line="67" column="124" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="124" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/results/layouts/master.blade.php">
+      <file leaf-file-name="navbar.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/results/includes/navbar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="1170">
+              <caret line="65" column="105" selection-start-line="65" selection-start-column="105" selection-end-line="65" selection-end-column="105" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/results/home.blade.php">
+      <file leaf-file-name="show-single-result.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/results/show-single-result.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-              <folding>
-                <element signature="e#1448#7685#0#HTML" expanded="false" />
-                <element signature="e#7694#11052#0#HTML" expanded="false" />
-              </folding>
+            <state relative-caret-position="414">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,18 +542,18 @@
       <file leaf-file-name="FetchResultsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FetchResultsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="34" column="83" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="83" />
+            <state relative-caret-position="576">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConstantPaths.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Library/ConstantPaths.php">
+      <file leaf-file-name="ResultsController(old).php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ResultsController(old).php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="19" column="49" selection-start-line="16" selection-start-column="7" selection-end-line="19" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -133,13 +576,14 @@
         <option value="$PROJECT_DIR$/app/Result.php" />
         <option value="$PROJECT_DIR$/app/Library/FetchHelpers.php" />
         <option value="$PROJECT_DIR$/resources/views/results/show-single-result.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/results/includes/navbar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/results/layouts/master.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Library/ResultHelpers.php" />
-        <option value="$PROJECT_DIR$/resources/views/results/home.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ResultsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/results/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/results/includes/navbar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/results/tabulate.blade.php" />
+        <option value="$PROJECT_DIR$/app/Library/ResultHelpers.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PhotosController.php" />
       </list>
     </option>
   </component>
@@ -189,7 +633,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -420,7 +864,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,26 +930,30 @@
       <workItem from="1482734924284" duration="32978000" />
       <workItem from="1482845367380" duration="26000" />
       <workItem from="1482845740207" duration="9316000" />
-      <workItem from="1482898375022" duration="8824000" />
+      <workItem from="1482898375022" duration="15928000" />
+      <workItem from="1482988393082" duration="2289000" />
+      <workItem from="1483015776162" duration="1522000" />
+      <workItem from="1483364918723" duration="1500000" />
+      <workItem from="1484059604461" duration="2033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57710000" />
+    <option name="totallyTimeSpent" value="72158000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="738" extended-state="1" />
+    <frame x="0" y="0" width="1366" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17526555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18740515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -555,17 +1003,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/results/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="81" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="81" />
-          <folding>
-            <element signature="e#1448#7685#0#HTML" expanded="false" />
-            <element signature="e#7694#11052#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Library/FetchHelpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
@@ -586,7 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,8 +1041,8 @@
         <state relative-caret-position="936">
           <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
           <folding>
-            <marker date="1482809815743" expanded="true" signature="1613:1631" ph="..." />
-            <marker date="1482809815743" expanded="true" signature="1632:1713" ph="..." />
+            <marker date="1483016675165" expanded="true" signature="1613:1631" ph="..." />
+            <marker date="1483016675165" expanded="true" signature="1632:1713" ph="..." />
           </folding>
         </state>
       </provider>
@@ -615,7 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +1150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,7 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,43 +1302,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/results/show-single-result.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/results/includes/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/results/layouts/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Library/ResultHelpers.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/results/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-          <folding>
-            <marker date="1482809815743" expanded="true" signature="1613:1631" ph="..." />
-            <marker date="1482809815743" expanded="true" signature="1632:1713" ph="..." />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="156" column="69" selection-start-line="156" selection-start-column="69" selection-end-line="156" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Library/FetchHelpers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        <state relative-caret-position="918">
+          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/results/includes/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="105" selection-start-line="65" selection-start-column="105" selection-end-line="65" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/results/show-single-result.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FetchResultsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -919,48 +1356,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/results/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-          <folding>
-            <element signature="e#1448#7685#0#HTML" expanded="false" />
-            <element signature="e#7694#11052#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FetchResultsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="34" column="83" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="83" />
+        <state relative-caret-position="198">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/results/tabulate.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="120">
+          <caret line="67" column="124" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Library/ResultHelpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding>
+            <marker date="1483016675165" expanded="true" signature="1613:1631" ph="..." />
+            <marker date="1483016675165" expanded="true" signature="1632:1713" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PhotosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="114" selection-start-line="17" selection-start-column="114" selection-end-line="17" selection-end-column="114" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ResultsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="1045">
           <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
           <folding>
             <element signature="e#40#70#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/results/tabulate.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -21,7 +21,7 @@ Route::get('home', ['as' =>'results.home',function() {
    return view('results.home');
 }]);
 
-Route::post('getSingleResult',[
+Route::get('getSingleResult',[
    'uses' => 'ResultsController@postGetSingleResult',
     'as' => 'results.getSingleResult'
     ]);
@@ -29,6 +29,11 @@ Route::post('getSingleResult',[
 Route::post('getBulkResult',[
     'uses' => 'ResultsController@postGetBulkResult',
     'as' => 'results.getBulkResult'
+]);
+
+Route::get('getPhoto',[
+    'uses' => 'PhotosController@getPhoto',
+    'as' => 'results.getPhoto'
 ]);
 
 Route::get('ajaxResponse',[

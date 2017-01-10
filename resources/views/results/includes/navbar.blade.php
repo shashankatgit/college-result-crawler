@@ -31,7 +31,7 @@
 
     <div class="row nav-container">
         <div style="float: left">
-            <form id="navbar-form" class="form" action="{{route('results.getSingleResult')}}" method="post">
+            <form id="navbar-form" class="form" action="{{route('results.getSingleResult')}}" method="get">
                 <div class="row">
                     <input type="hidden" name="rollNo" value="{{$rollNo-1}}">
                     <input type="hidden" name="session" value="{{$session}}">
@@ -44,7 +44,7 @@
             </form>
         </div>
         <div style="float: right">
-            <form id="navbar-form" class="form" action="{{route('results.getSingleResult')}}" method="post">
+            <form id="navbar-form" class="form" action="{{route('results.getSingleResult')}}" method="get">
                 <div class="row">
                     <input type="hidden" name="rollNo" value="{{$rollNo+1}}">
                     <input type="hidden" name="session" value="{{$session}}">
@@ -63,7 +63,7 @@
             <a href="{{route('results.home')}}">
                 <button class="btn" style="margin-right: 25px;">Home</button>
             </a>
-            <form id="navbar-form" class="form" action="{{route('results.getSingleResult')}}" method="post" style="display: inline">
+            <form id="navbar-form" class="form" action="{{route('results.getSingleResult')}}" method="get" style="display: inline">
 
 
                 <input type="number" name="rollNo" id="jumpRollNo" value="{{$rollNo}}"
