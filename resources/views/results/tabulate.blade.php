@@ -67,19 +67,22 @@
         function loadResultRow(id, rollNo, session, semester, resultCategory) {
             var xmlhttp = new XMLHttpRequest();
 
+
             xmlhttp.onreadystatechange = function () {
                 if (xmlhttp.readyState == XMLHttpRequest.DONE) {
                     var row = document.getElementById("entry" + id);
-                    count++;
 
                     row.cells[4].innerHTML = '<a href="{{route('results.getSingleResult')}}'
                             + '?rollNo=' + rollNo + '&semester=' + semester
                             + '&session=' + session + '&resultCategory=' + resultCategory + '" target=_blank>See Full Result</a>';
 
                     if (xmlhttp.status == 200) {
+                        count++;
+
                         var resultjson = JSON.parse(xmlhttp.responseText);
                         row.cells[2].innerHTML = resultjson.name;
                         row.cells[3].innerHTML = resultjson.percentage;
+
 
 
                         {{--if (resultjson.isValid)--}}
@@ -103,10 +106,12 @@
                     else if (xmlhttp.status == 400) {
                         row.cells[2].innerHTML = 'error (server returned 400)';
                         row.cells[3].innerHTML = 'error';
+                        count++;
                     }
                     else {
-                        row.cells[2].innerHTML = 'error';
-                        row.cells[3].innerHTML = 'error (unknown server response:'+ xmlhttp.status + ')';
+                        row.cells[2].innerHTML = 'server failed. Retrying...';
+                        row.cells[3].innerHTML = 'Retrying...';
+                        loadResultRow(id, rollNo, session, semester, resultCategory);
                     }
                 }
             };
@@ -164,7 +169,7 @@
 
         .mid-floater {
             margin-left: 50px;
-            width: 280px;
+            width: 300px;
             padding: 5px;
             border: 2px solid darkred;
         }
@@ -216,6 +221,7 @@
                         @endif
                     </h5>
                 </div>
+                <h5 style="color: red">** Not for any official use. A hobby project by Shashank Singh</h5>
             </div>
         </div>
         <div class="highest-container">

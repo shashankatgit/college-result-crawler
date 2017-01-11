@@ -2,7 +2,7 @@
 
 @section('styles')
     <style>
-        body{
+        body {
             background: #f7e1b5;
         }
 
@@ -15,30 +15,32 @@
 
         }
 
-        .heading-container{
-            margin:auto;
-            margin-top:20px;
-            margin-bottom:30px;
-            width:400px;
+        .heading-container {
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            width: 400px;
         }
 
         .form-container {
+            display:inline;
             float: left;
             min-width: 400px;
             width: 48%;
             margin-right: 10px;
             margin-bottom: 20px;
         }
-        .heading{
-            color:darkred;
+
+        .heading {
+            color: darkred;
         }
 
 
     </style>
 
     <style>
-        .form-control{
-            border:1px solid #403e3e;
+        .form-control {
+            border: 1px solid #403e3e;
 
         }
 
@@ -50,7 +52,7 @@
             color: rgba(62, 0, 1, 0.82) !important;
         }
 
-        input::-moz-placeholder {  /* Firefox 19+ */
+        input::-moz-placeholder { /* Firefox 19+ */
             color: rgba(62, 0, 1, 0.82) !important;
         }
 
@@ -63,11 +65,11 @@
 @endsection
 @section('content')
 
-    <div id="main-container" class="container">
+    <div id="main-container">
         <div class="heading-container">
-                <h2 class="heading" align="center">Advanced Result Viewer</h2>
-                <h4 class="subheading1" align="center">(for BIET Jhansi)</h4>
-
+            <h2 class="heading" align="center">Advanced Result Viewer</h2>
+            <h4 class="subheading1" align="center">(for BIET Jhansi)</h4>
+            <h5 class="subheading1" align="center" style="color:darkred">Not for any official use. Just a hobby project by Shashank Singh</h5>
 
         </div>
 
