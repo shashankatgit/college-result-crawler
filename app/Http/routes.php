@@ -11,13 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-//
 
 
-Route::get('home', ['as' =>'results.home',function() {
+Route::get('/', ['as' =>'results.home',function() {
    return view('results.home');
 }]);
 
@@ -26,7 +22,7 @@ Route::get('getSingleResult',[
     'as' => 'results.getSingleResult'
     ]);
 
-Route::post('getBulkResult',[
+Route::get('getBulkResult',[
     'uses' => 'ResultsController@postGetBulkResult',
     'as' => 'results.getBulkResult'
 ]);

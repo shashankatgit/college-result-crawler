@@ -16,8 +16,10 @@
         }
 
         .heading-container{
+            margin:auto;
             margin-top:20px;
             margin-bottom:30px;
+            width:400px;
         }
 
         .form-container {
@@ -77,7 +79,7 @@
                         Tabular Results for the given range of results
                     </h5>
                     <br>
-                    <form class="form" action="{{route('results.getBulkResult')}}" method="post">
+                    <form class="form" action="{{route('results.getBulkResult')}}" method="get">
 
                         <div class="form-group row">
                             <label for="session" class="col-sm-3 col-form-label">Acd Session </label>
@@ -176,7 +178,7 @@
                         </div>
 
 
-                        <input type="hidden" name="_token" value="{{Session::token()}}">
+                        {{--<input type="hidden" name="_token" value="{{Session::token()}}">--}}
 
                         <div class="form-group row">
                             <button class="btn btn-danger col-sm-2" style="float: right; margin-right:20px"
@@ -238,7 +240,6 @@
                             </div>
                         </div>
 
-                        <input type="hidden" name="_token" value="{{Session::token()}}">
                         <div class="form-group row">
                             <button class="btn btn-danger col-sm-2" style="float: right; margin-right:20px"
                                     type="submit">Fire it
