@@ -1,6 +1,5 @@
 <?php
 
-namespace App\Library;
 
 require_once('../webassets/simpletest/browser.php');
 

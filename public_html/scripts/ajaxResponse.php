@@ -1,11 +1,13 @@
 <?php
 
 //echo 'testing';
+require_once ('ResultHelpers.php');
+
 
 $session = $_GET['session'];
 $semester = $_GET['semester'];
 $resultCategory = $_GET['resultCategory'];
-$rollNo = $_GET['rollNo']; 
+$rollNo = $_GET['rollNo'];
 
 $result = ResultHelpers::getSingleResult($session, $semester, $resultCategory, $rollNo, false);
 
@@ -16,15 +18,18 @@ if ($result == null) {
 } else {
     $resultArray = [
         'isValid' => true,
-        'rollNo' => $result->rollno,
-        'name' => $result->name,
-        'percentage' => $result->percentage,
+        'rollNo' => $result['rollNo'],
+        'name' => $result['name'],
+        'percentage' => $result['percentage'],
         'sem' => $semester,
     ];
 }
 
-if ($request->has('id'))
-    $resultArray['id'] = $request['id'];
+if (isset($_GET['id']))
+    $resultArray['id'] = $_GET['id'];
 
-return response()->json($resultArray);
+http_response_code(200);
+header('Content-Type: application/json');
+echo json_encode($resultArray);
+
 ?>

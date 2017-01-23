@@ -1,11 +1,15 @@
 <?php
 
-namespace App\Library;
-
-use App\Result;
+require_once ('FetchHelpers.php');
 
 class ResultHelpers
 {
+
+    private static $host = 'localhost';
+    private static $username = 'root';
+    private static $password = '';
+    private static $dbName = 'u173463499_bres';
+    private static $port=3306;
 
     //Returns an object of Result model by default
     public static function getSingleResult($session, $semester, $resultCategory, $rollNo, $returnHtml = false)
@@ -16,34 +20,76 @@ class ResultHelpers
 //            ->where('rollno', '=', $rollNo)
 //            ->get();
 
-        $result = Result::where('session', '=', $session)
-            ->where('semester', '=', $semester)
-            ->where('rollno', '=', $rollNo)
-            ->first();
+
+        $con = mysqli_connect(self::$host,self::$username,self::$password,self::$dbName, self::$port);
+        if (!$con) {
+            die("Connection failed: " . mysqli_connect_error());
+        }
+
+        $semester= mysqli_real_escape_string($con, $semester);
+        $rollNo= mysqli_real_escape_string($con, $rollNo);
+
+        $query = "SELECT * from results WHERE semester='$semester' AND rollno='$rollNo'";
+       // echo($query);
+
+        $result = mysqli_query($con, $query);
+
+//        $result = Result::where('session', '=', $session)
+//            ->where('semester', '=', $semester)
+//            ->where('rollno', '=', $rollNo)
+//            ->first();
 
         $parsedData = null;
 
-        //Check if Result is absent in database
-        if ($result == null) {
+        if (mysqli_num_rows($result) > 0) {
+            //result present in databases
+            $row = mysqli_fetch_assoc($result);
 
+            mysqli_close($con);
+
+            if ($returnHtml) {
+                return stripslashes($row['result_html']);
+            } else {
+
+                return [
+                    'rollNo'=> $row['rollno'],
+                    'name'=> $row['name'],
+                    'percentage'=> $row['percentage'],
+                ];
+            }
+        }
+        else { //If result not found in db
 
             $html = FetchHelpers::helperFetchHTMLFromServer($session, $semester, $resultCategory, $rollNo);
             $parsedData = FetchHelpers::parseHTMLForPercentage($rollNo, $semester, $html);
+            $resultArray =  null;
 
+            //print_r($parsedData);
             if ($parsedData['isValid']) {
-                $result = new Result();
+
                 $html = FetchHelpers::parseHTMLForStorage($html);
 
-                $result->rollno = $rollNo;
-                $result->session = $session;
-                $result->semester = $semester;
-                $result->name = $parsedData['name'];
-                $result->percentage = $parsedData['percentage'];
-                $result->result_html = $html;
-                $result->save();
-            }
+                $html = addslashes($html);
 
-            else{
+                $query = "INSERT INTO results(rollno, name, session, semester, percentage, result_html) ".
+                    "VALUES ('$rollNo', '{$parsedData['name']}', '$session', '$semester', 
+                    '{$parsedData['percentage']}', '{$html}')";
+
+                //echo ($query);
+
+                $res = mysqli_query($con,$query);
+                //var_dump($res);
+                //echo mysqli_error($con);
+                //print_r($res);
+                
+                mysqli_close($con);
+
+                $resultArray =  [
+                        'rollNo'=> $rollNo,
+                        'name'=> $parsedData['name'],
+                        'percentage'=> $parsedData['percentage'],
+                    ];
+            } else{
                 $html="
                  <h3 style='margin-top: 160px;'><p align='center'>Result undeclared or invalid details!</p></h3>
                 ";
@@ -53,18 +99,11 @@ class ResultHelpers
                 return $html;
 
             else
-                return $result;
+                return $resultArray;
         }
 
-        //If result is found in database
-        else {
-            if ($returnHtml) {
-                return $result->result_html;
-            }
-            else
-                return $result;
 
-        }
+
     }
 
 }

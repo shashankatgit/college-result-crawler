@@ -15,7 +15,7 @@ class PhotosController extends Controller
 
         header('Content-type: image/jpeg');
 
-        $photo = file_get_contents("http://ims.bietjhs.in/student/StudentPhoto.ashx?RollNo=" . $rollNo. "&type=Pic");
+        $photo = file_get_contents("http://ims.bietjhs.ac.in/student/StudentPhoto.ashx?RollNo=" . $rollNo. "&type=Pic");
 
         echo $photo;
     }

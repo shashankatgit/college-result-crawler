@@ -7,6 +7,9 @@
 @section('scripts')
 
     <script>
+
+                <?php $ajaxPath = "http://localhost/laravel-projects/bietresults/public_html/scripts/ajaxResponse.php";?>
+
         var count = 0;
         var totalCount = 0;
 
@@ -14,16 +17,18 @@
         var topperName;
         var topperPercentage = 0;
 
+        var rangeCount = '{{$rangeCount}}';
+        var session = '{{$session}}';
+        var semester = '{{$semester}}';
+        var resultCategory = '{{$resultCategory}}';
+
         window.onload = function () {
             process();
         }
 
         function process() {
             //alert('asdasd');
-            var rangeCount = '{{$rangeCount}}';
-            var session = '{{$session}}';
-            var semester = '{{$semester}}';
-            var resultCategory = '{{$resultCategory}}';
+
 
             var prefix = [];
             var start = [];
@@ -41,6 +46,8 @@
             if (rangeCount > 1)
                 totalCount += end[1] - start[1] + 1;
 
+            document.getElementById('totalCount').innerHTML=''+totalCount;
+
             var suffix;
             var id = 1;
             var rollNo;
@@ -55,7 +62,8 @@
                     rollNo = "" + prefix[rangeCounter] + suffix;
                     addNewEntryToTable(id, rollNo);
 
-                    setTimeout(loadResultRow, 2000*(rangeCounter-1) + suffixCounter*250, id, rollNo, session, semester, resultCategory);
+                    setTimeout(loadResultRow, 800*(rangeCounter-1) + suffixCounter*20, id, rollNo, session, semester, resultCategory);
+
                     //loadResultRow(id, rollNo, session, semester, resultCategory);
 
 
@@ -72,12 +80,11 @@
                 if (xmlhttp.readyState == XMLHttpRequest.DONE) {
                     var row = document.getElementById("entry" + id);
 
-                    row.cells[4].innerHTML = '<a href="{{route('results.getSingleResult')}}'
-                            + '?rollNo=' + rollNo + '&semester=' + semester
-                            + '&session=' + session + '&resultCategory=' + resultCategory + '" target=_blank>See Full Result</a>';
+
 
                     if (xmlhttp.status == 200) {
                         count++;
+                        document.getElementById('loadCount').innerHTML=count;
 
                         var resultjson = JSON.parse(xmlhttp.responseText);
                         row.cells[2].innerHTML = resultjson.name;
@@ -86,8 +93,8 @@
 
 
                         {{--if (resultjson.isValid)--}}
-                            {{--row.cells[5].innerHTML = '<img src=' + '"' + '{{route('results.getPhoto')}}?rollNo=' + rollNo--}}
-                                    {{--+ '" height=90>';--}}
+                                {{--row.cells[5].innerHTML = '<img src=' + '"' + '{{route('results.getPhoto')}}?rollNo=' + rollNo--}}
+                                {{--+ '" height=90>';--}}
 
                         if (resultjson.percentage > topperPercentage && resultjson.isValid) {
                             topperRollNo = rollNo;
@@ -97,9 +104,9 @@
 
                         if (count >= totalCount && topperPercentage>0) {
                             document.getElementById("topper-img").setAttribute("src", "{{route('results.getPhoto')}}?rollNo=" + topperRollNo);
-                            document.getElementById("topper-name").innerHTML = topperName;
-                            document.getElementById("topper-rollno").innerHTML = topperRollNo;
-                            document.getElementById("topper-percentage").innerHTML = topperPercentage;
+                            document.getElementById("topper-name").innerHTML = '<b>' + topperName + '</b>';
+                            document.getElementById("topper-rollno").innerHTML = '<b>' + topperRollNo + '</b>';
+                            document.getElementById("topper-percentage").innerHTML = '<b>' + topperPercentage + '</b>';
                         }
 
                     }
@@ -116,11 +123,10 @@
                 }
             };
 
-            xmlhttp.open("GET", "{{route('results.ajaxResponse')}}" + "?session=" + session
+            xmlhttp.open("GET", <?php echo "'$ajaxPath'";?> + "?session=" + session
                     + "&semester=" + semester + "&resultCategory=" + resultCategory
                     + "&rollNo=" + rollNo, true);
             xmlhttp.send();
-            //sleep(200);
         }
         function addNewEntryToTable(id, rollNo) {
             var table = document.getElementById('resultTable');
@@ -130,7 +136,7 @@
             var cellName = row.insertCell(2);
             var cellPercentage = row.insertCell(3);
 
-            row.insertCell(4);
+            var seeFullLink = row.insertCell(4);
 //            row.insertCell(5);
 
 
@@ -139,22 +145,22 @@
             cellRollNo.innerHTML = rollNo;
             cellName.innerHTML = '  loading...  ';
             cellPercentage.innerHTML = '  loading...  ';
+
+            seeFullLink.innerHTML = '<a href="{{route('results.getSingleResult')}}'
+                    + '?rollNo=' + rollNo + '&semester=' + semester
+                    + '&session=' + session + '&resultCategory=' + resultCategory + '" target=_blank>See Full Result</a>';
         }
 
-        function sleep(milliseconds) {
-            var start = new Date().getTime();
-            for (var i = 0; i < 1e7; i++) {
-                if ((new Date().getTime() - start) > milliseconds){
-                    break;
-                }
-            }
-        }
+
     </script>
 @endsection
 
 
 @section('styles')
     <style>
+        body{
+            background-color: #ececec;
+        }
         .main-container {
             margin-top: 10px;
         }
@@ -169,9 +175,9 @@
 
         .mid-floater {
             margin-left: 50px;
-            width: 300px;
+            width: 450px;
             padding: 5px;
-            border: 2px solid darkred;
+        //border: 2px solid darkred;
         }
 
         .highest-container {
@@ -210,23 +216,28 @@
 @section('content')
     <div class="main-container">
         <div class="details-container">
+
             <div class="mid-floater">
+                <a href="{{route('results.home')}}"><button class="btn btn-primary">Home</button></a>
+
                 <h5><u><b>Showing tabular results for : </b></u></h5>
                 <div>
-                    <h5>Academic Session : {{$session}}</h5>
-                    <h5>Semester : {{$semester}}</h5>
-                    <h5>Roll No Ranges : {{$rollNoStart1}} - {{$rollNoEnd1}}
+                    <h6>Academic Session : {{$session}} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Semester : {{$semester}}</h6>
+                    <h6>Roll No Ranges : {{$rollNoStart1}} - {{$rollNoEnd1}}
                         @if($rangeCount>1)
                             and {{$rollNoStart2}} - {{$rollNoEnd2}}
                         @endif
-                    </h5>
+                    </h6>
                 </div>
+                <h5 style="color:darkblue">Patience is bitter but its fruit is sweet. Be patient while I dig for you.</h5>
                 <h5 style="color: red">** Not for any official use. A hobby project by Shashank Singh</h5>
             </div>
         </div>
         <div class="highest-container">
             <div>
-                <h4 align="center"><u>Highest in this range</U></h4>
+                <h4 align="center" style="color:darkred">Loaded <span id="loadCount">0</span> out of <span id="totalCount"></span> results </h4>
+
+                <h5 align="center"><u>Highest in this range</U></h5>
                 <div class="highest-subcontainer">
                     <div class="topper-photo">
                         <img id="topper-img"
@@ -262,5 +273,4 @@
         </div>
     </div>
 @endsection
-
 
