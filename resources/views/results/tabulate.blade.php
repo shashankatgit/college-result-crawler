@@ -12,6 +12,7 @@
 
         var count = 0;
         var totalCount = 0;
+                var resultArray = [];
 
         var topperRollNo;
         var topperName;
@@ -21,6 +22,7 @@
         var session = '{{$session}}';
         var semester = '{{$semester}}';
         var resultCategory = '{{$resultCategory}}';
+
 
         window.onload = function () {
             process();
@@ -87,8 +89,16 @@
                         document.getElementById('loadCount').innerHTML=count;
 
                         var resultjson = JSON.parse(xmlhttp.responseText);
+
+                        resultArray[id]=[];
+                        resultArray[id]['name'] = resultjson.name;
+                        resultArray[id]['percentage'] = resultjson.percentage;
+
+
                         row.cells[2].innerHTML = resultjson.name;
                         row.cells[3].innerHTML = resultjson.percentage;
+
+
 
 
 
@@ -128,7 +138,10 @@
                     + "&rollNo=" + rollNo, true);
             xmlhttp.send();
         }
-        function addNewEntryToTable(id, rollNo) {
+        function addNewEntryToTable(id, rollNo, name, percentage) {
+
+            if(name == undefined) name='loading...';
+            if(percentage == undefined) percentage='loading...';
             var table = document.getElementById('resultTable');
             var row = table.insertRow();
             var cellID = row.insertCell(0);
@@ -152,6 +165,17 @@
         }
 
 
+        //Sorting features start
+
+        function initSort() {
+            var button = document.getElementById('btnsort');
+            button.innerHTML = "Click to unsort the table to default view";
+
+            var table = document.getElementById('resultTable');
+
+
+        }
+
     </script>
 @endsection
 
@@ -160,6 +184,7 @@
     <style>
         body{
             background-color: #ececec;
+            min-width: 800px;
         }
         .main-container {
             margin-top: 10px;
@@ -256,6 +281,9 @@
                 </div>
             </div>
         </div>
+        <div style="margin:auto; margin-top:5px; width:100px; ">
+            <button class="btn btn-primary" id="btnsort" onclick="initSort()">Click to sort table by percentage</button>
+        </div>
         <div class="table-container">
             <table id="resultTable" class="table">
                 <thead>
@@ -268,6 +296,9 @@
                     {{--<th class="col-sm-2">Photo</th>--}}
                 </tr>
                 </thead>
+                <tbody>
+
+                </tbody>
 
             </table>
         </div>
