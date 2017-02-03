@@ -3,6 +3,8 @@
 //echo 'testing';
 require_once ('ResultHelpers.php');
 
+error_reporting(0);
+
 
 $session = $_GET['session'];
 $semester = $_GET['semester'];

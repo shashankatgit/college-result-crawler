@@ -12,7 +12,9 @@
 
         var count = 0;
         var totalCount = 0;
+
                 var resultArray = [];
+                var sortedResultArray;
 
         var topperRollNo;
         var topperName;
@@ -88,11 +90,13 @@
                         count++;
                         document.getElementById('loadCount').innerHTML=count;
 
+
                         var resultjson = JSON.parse(xmlhttp.responseText);
 
-                        resultArray[id]=[];
-                        resultArray[id]['name'] = resultjson.name;
-                        resultArray[id]['percentage'] = resultjson.percentage;
+                        resultArray[id-1]=[];
+                        resultArray[id-1]['rollno']=rollNo;
+                        resultArray[id-1]['name'] = resultjson.name;
+                        resultArray[id-1]['percentage'] = resultjson.percentage;
 
 
                         row.cells[2].innerHTML = resultjson.name;
@@ -113,6 +117,10 @@
                         }
 
                         if (count >= totalCount && topperPercentage>0) {
+                            //Enable the sort button
+                            document.getElementById('btnsort').removeAttribute('disabled');
+
+                            //Set topper details
                             document.getElementById("topper-img").setAttribute("src", "{{route('results.getPhoto')}}?rollNo=" + topperRollNo);
                             document.getElementById("topper-name").innerHTML = '<b>' + topperName + '</b>';
                             document.getElementById("topper-rollno").innerHTML = '<b>' + topperRollNo + '</b>';
@@ -140,8 +148,9 @@
         }
         function addNewEntryToTable(id, rollNo, name, percentage) {
 
-            if(name == undefined) name='loading...';
-            if(percentage == undefined) percentage='loading...';
+            if(name == undefined) name='  Loading...';
+            if(percentage == undefined) percentage='  Loading...';
+
             var table = document.getElementById('resultTable');
             var row = table.insertRow();
             var cellID = row.insertCell(0);
@@ -156,8 +165,8 @@
             row.setAttribute('id', "entry" + id);
             cellID.innerHTML = id;
             cellRollNo.innerHTML = rollNo;
-            cellName.innerHTML = '  loading...  ';
-            cellPercentage.innerHTML = '  loading...  ';
+            cellName.innerHTML = name;
+            cellPercentage.innerHTML = percentage;
 
             seeFullLink.innerHTML = '<a href="{{route('results.getSingleResult')}}'
                     + '?rollNo=' + rollNo + '&semester=' + semester
@@ -170,10 +179,60 @@
         function initSort() {
             var button = document.getElementById('btnsort');
             button.innerHTML = "Click to unsort the table to default view";
+            button.setAttribute('onclick', 'initUnsort()');
 
             var table = document.getElementById('resultTable');
+            while(table.rows[1]) table.deleteRow(1);
+
+            if(sortedResultArray == undefined) {
+
+                sortedResultArray =[];
+
+                for(var j=0; j<resultArray.length; j++) {
+                    sortedResultArray[j]=[];
+                    sortedResultArray[j]['rollno'] = resultArray[j]['rollno'];
+                    sortedResultArray[j]['name'] = resultArray[j]['name'];
+                    sortedResultArray[j]['percentage'] = resultArray[j]['percentage'];
+                }
+                alert(sortedResultArray);
+                sortedResultArray.sort(function (res1, res2) {
+                    perc1 = res1['percentage'];
+                    perc2 = res2['percentage'];
+
+                    if (isNumeric(perc1) && isNumeric(perc2)) {
+                        if (perc1 >= perc2) return -1;
+                        else return 1;
+                    }
+
+                    else if (isNumeric(perc1)) return -1;
+                    else return 1;
+                });
+            }
+
+            for(var i=0; i<sortedResultArray.length; i++)
+            {
+                addNewEntryToTable(i+1, sortedResultArray[i]['rollno'], sortedResultArray[i]['name'], sortedResultArray[i]['percentage']);
+            }
+
+        }
+
+        function initUnsort() {
+            var button = document.getElementById('btnsort');
+            button.innerHTML = "Sort Again!";
+            button.setAttribute('onclick', 'initSort()');
+            var table = document.getElementById('resultTable');
+            while(table.rows[1]) table.deleteRow(1);
+
+            for(var i=0; i<resultArray.length; i++)
+            {
+                addNewEntryToTable(i+1, resultArray[i]['rollno'], resultArray[i]['name'], resultArray[i]['percentage']);
+            }
+        }
 
 
+        function isNumeric(input){
+            var RE = /^-{0,1}\d*\.{0,1}\d+$/;
+            return (RE.test(input));
         }
 
     </script>
@@ -281,8 +340,8 @@
                 </div>
             </div>
         </div>
-        <div style="margin:auto; margin-top:5px; width:100px; ">
-            <button class="btn btn-primary" id="btnsort" onclick="initSort()">Click to sort table by percentage</button>
+        <div style="margin:auto; margin-top:5px;width: 300px;">
+            <button style="width:300px;" class="btn btn-primary" id="btnsort" onclick="initSort()" disabled>Click to sort table by percentage</button>
         </div>
         <div class="table-container">
             <table id="resultTable" class="table">
@@ -296,7 +355,7 @@
                     {{--<th class="col-sm-2">Photo</th>--}}
                 </tr>
                 </thead>
-                <tbody>
+                <tbody id="resultTableBody">
 
                 </tbody>
 
